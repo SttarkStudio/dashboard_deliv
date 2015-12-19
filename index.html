@@ -336,12 +336,12 @@
                             <div class="row stock-rates m-t-15">
                               <div class="company col-xs-4">
                                 <div>
-                                  <p class="font-montserrat text-success no-margin fs-16">
-                                    <i class="fa fa-clock-o"></i> 20 Min.
+                                  <p class="font-montserrat text-danger no-margin fs-16">
+                                    <i class="fa fa-clock-o"></i> 1 hora
                                     <span class="font-arial text-white fs-12 hint-text m-l-5">16:00</span>
                                   </p>
                                   <p class="bold text-white no-margin fs-11 font-montserrat lh-normal">
-                                    ENTREGA 001A
+                                    <a href="#">CHAMAR ENTREGADOR</a>
                                   </p>
                                 </div>
                               </div>
@@ -352,18 +352,18 @@
                                     <span class="font-arial text-white fs-12 hint-text m-l-5">15:40</span>
                                   </p>
                                   <p class="bold text-white no-margin fs-11 font-montserrat lh-normal">
-                                    ENTREGA 002B
+                                    <a href="timeline.html">VER ENTREGA</a>
                                   </p>
                                 </div>
                               </div>
                               <div class="company col-xs-4">
                                 <div class="pull-right">
-                                  <p class="font-montserrat text-danger no-margin fs-16">
-                                    <i class="fa fa-caret-up"></i> 1 Hora
+                                  <p class="font-montserrat text-success no-margin fs-16">
+                                    <i class="fa fa-clock-o"></i> 20 Min.
                                     <span class="font-arial text-white fs-12 hint-text m-l-5">15:00</span>
                                   </p>
                                   <p class="bold text-white no-margin fs-11 font-montserrat lh-normal">
-                                    ENTREGA 008H
+                                    <a href="#">CHAMAR ENTREGADOR</a>
                                   </p>
                                 </div>
                               </div>
@@ -701,6 +701,67 @@
                       </div>
                       <div class="panel-controls">
                         <ul>
+                          <li><a data-toggle="refresh" class="portlet-refresh text-black" href="#" alt="Inserir Crédito" title="Inserir Crédito"><i class="portlet-icon pg-credit_card_line"></i></a>
+                            <!-- Modal -->
+                            <div class="modal fade slide-up disable-scroll" id="modalSlideUp" tabindex="-1" role="dialog" aria-hidden="true">
+                              <div class="modal-dialog ">
+                                <div class="modal-content-wrapper">
+                                  <div class="modal-content">
+                                    <div class="modal-header clearfix text-left">
+                                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="pg-close fs-14"></i>
+                                      </button>
+                                      <h5>Payment <span class="semi-bold">Information</span></h5>
+                                      <p class="p-b-10">We need payment information inorder to process your order</p>
+                                    </div>
+                                    <div class="modal-body">
+                                      <form role="form">
+                                        <div class="form-group-attached">
+                                          <div class="row">
+                                            <div class="col-sm-12">
+                                              <div class="form-group form-group-default">
+                                                <label>Company Name</label>
+                                                <input type="email" class="form-control">
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="row">
+                                            <div class="col-sm-8">
+                                              <div class="form-group form-group-default">
+                                                <label>Card Number</label>
+                                                <input type="text" class="form-control">
+                                              </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                              <div class="form-group form-group-default">
+                                                <label>Card Holder</label>
+                                                <input type="text" class="form-control">
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </form>
+                                      <div class="row">
+                                        <div class="col-sm-8">
+                                          <div class="p-t-20 clearfix p-l-10 p-r-10">
+                                            <div class="pull-left">
+                                              <p class="bold font-montserrat text-uppercase">TOTAL</p>
+                                            </div>
+                                            <div class="pull-right">
+                                              <p class="bold font-montserrat text-uppercase">$20.00</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-sm-4 m-t-10 sm-m-t-10">
+                                          <button type="button" class="btn btn-primary btn-block m-t-5">Pay Now</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- /.modal-content -->
+                              </div>
+                            </div>
+                            <!-- /.modal-dialog -->
                           <li><a data-toggle="refresh" class="portlet-refresh text-black" href="#"><i class="portlet-icon portlet-icon-refresh"></i></a>
                           </li>
                         </ul>
@@ -842,7 +903,8 @@
                     <div class="padding-25">
                       <p class="small no-margin">
                         <a href="invoice.html"><i class="fa fs-16 fa-arrow-circle-o-down text-success m-r-10"></i></a>
-                        <span class="hint-text ">Baixar extrato completo de movimentações.</span>
+                        <span class="hint-text ">Baixar Extrato Completo.</span>
+                        <span class="hint-text ">Inserir Crédito</span>
                       </p>
                     </div>
                   </div>
