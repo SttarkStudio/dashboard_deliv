@@ -2010,7 +2010,7 @@ hr.dotted {
   background-color: #413768;
 }
 .bg-primary-light {
-  background-color: #8a7dbe;
+  background-color: #585858;
 }
 .bg-primary-lighter {
   background-color: #e2deef;
@@ -2513,8 +2513,8 @@ Alternate buttons
 .btn-primary.hover,
 .btn-primary:hover,
 .open .dropdown-toggle.btn-primary {
-  background-color: #8a7dbe;
-  border-color: #8a7dbe;
+  background-color: #585858;
+  border-color: #585858;
   color: #ffffff;
 }
 .btn-primary.active:hover {
